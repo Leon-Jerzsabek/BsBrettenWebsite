@@ -13,7 +13,7 @@ const HomepageTitle = () => {
           marginLeft: "5%",
           marginRight: "5%",
           height: "100%",
-          backgroundImage: "url('public/bsbretten_background.png')",
+          backgroundImage: "url('/bsbretten_background.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

@@ -1,4 +1,4 @@
-import { Box, Divider, Typography } from "@mui/material";
+import { Box, Divider, Link, Typography } from "@mui/material";
 import WhatsNewComponent from "../components/WhatsNewComponent";
 import OurTeamComponent from "../components/OurTeamComponent";
 
@@ -74,7 +74,84 @@ const VocationalHighSchools = () => {
             marginTop: "3%",
           }}
         />
-        <Box sx={{ height: "1200px", bgcolor: "white" }}></Box>
+        <Box
+        sx={{
+          padding: "2rem",
+          margin: "5%",
+          backgroundColor: "#3c3c3c",
+          borderRadius: "8px",
+          boxShadow: "0px 5px 15px rgba(0,0,0,0.2)",
+        }}
+      >
+        <Typography
+          variant="body1"
+          sx={{ marginBottom: "1rem", color: "white", lineHeight: 1.6 }}
+        >
+          Das berufliche Gymnasium der dreijährigen Aufbauform wird an den Beruflichen Schulen Bretten als Technisches Gymnasium mit den Fachrichtungen Informationstechnik, Technik und Management, Gestaltungs- und Medientechnik und als Sozial- und gesundheitswissenschaftliches Gymnasium mit der Fachrichtung Gesundheit und Biologie angeboten. 
+          Das Berufliche Gymnasium bereitet naturwissenschaftlich-technisch, informationstechnisch und sozial- und gesundheitswissenschaftlich interessierte junge Menschen sowohl auf das Studium an einer Hochschule als auch in besonderer Weise auf die Berufswelt vor. 
+        </Typography>
+        <Divider
+          sx={{ marginY: "2rem", color: "white", backgroundColor: "#cccccc" }}
+        />
+        
+        <Typography
+          variant="h6"
+          sx={{ fontWeight: "bold", color: "white", marginBottom: "1rem" }}
+        >
+          
+          Information für unsere Schülerinnen und Schüler
+        </Typography>
+
+        <Typography
+          variant="body1"
+          sx={{ color: "white", marginBottom: "0.5rem" }}
+        >
+          <Link
+            href="https://km.baden-wuerttemberg.de/de/service/publikation/did/leitfaden-fuer-die-gymnasiale-oberstufe-abitur-2025"
+            color="primary"
+            underline="hover"
+          >
+            Leitfaden für das Abitur 2025 
+          </Link>
+        </Typography>
+        <Typography
+          variant="body1"
+          sx={{ color: "white", marginBottom: "0.5rem" }}
+        >
+          <Link
+            href="https://km.baden-wuerttemberg.de/fileadmin/redaktion/m-km/intern/PDF/Publikationen/Gymnasium/2023_Leitfaden_fuer_die_gymnasiale_Oberstufe_Abitur_2026.pdf"
+            color="primary"
+            underline="hover"
+          >
+            Leitfaden für das Abitur 2026
+          </Link>
+        </Typography>
+        <Typography
+          variant="body1"
+          sx={{ color: "white", marginBottom: "1rem" }}
+        >
+          <Link
+            href="https://www.landesrecht-bw.de/bsbw/search"
+            color="primary"
+            underline="hover"
+          >
+            Abiturverordnung Berufliche Gymnasien gültig ab Abitur 2024  (BGVO – gültig ab 01.08.2021) 
+          </Link>
+        </Typography>
+        <Typography
+          variant="body1"
+          sx={{ color: "white", marginBottom: "1rem" }}
+        >
+          <Link
+            href="https://www.landesrecht-bw.de/bsbw/document/jlr-FHSchulGymOStVBW2009rahmen"
+            color="primary"
+            underline="hover"
+          >
+            Verordnung des Kultusministeriums über den Erwerb der Fachhochschulreife
+            in der gymnasialen Oberstufe
+          </Link>
+        </Typography>
+      </Box>
         <WhatsNewComponent
           whatsNewList={whatsNewList}
           header="vom Beruflichen Gymnasium"

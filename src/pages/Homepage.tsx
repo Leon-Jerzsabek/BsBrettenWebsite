@@ -46,42 +46,42 @@ const Homepage = () => {
 
   const whatsNewList = [
     {
-      image: "public/whatsNew/whats_new_1.jpeg",
+      image: "/whatsNew/whats_new_1.jpeg",
       title: "Projekttag gegen Cybermobbing an den Beruflichen Schulen Bretten",
       description:
         " Eine hämische Beleidigung im Klassen-Chat oder heftige Hasskommentare auf Instagram oder WhatsApp: Cybermobbing entwickelt sich zu einem bedeutenden Problem. Das Verfolgen, Belästigen oder Bedrohen einer Person über digitale Kommunikationsmittel […]",
       time: "vor 1 Tag",
     },
     {
-      image: "public/whatsNew/whats_new_2.jpg",
+      image: "/whatsNew/whats_new_2.jpg",
       title: "Jahrgangsstufe 2 auf Abschlussfahrt in der Hansestadt",
       description:
         "Hamburg - das Tor zur Welt. Nicht nur bei Touristen, auch bei Jugendlichen steht die Elb-Metropole in Sachen Reiseziel ganz oben auf der Liste. So machten sich Schülerinnen und […]",
       time: "vor 3 Tagen",
     },
     {
-      image: "public/whatsNew/whats_new_3.jpg",
+      image: "/whatsNew/whats_new_3.jpg",
       title: "Brasilianische Kultur und Natur vor Ort erkundet",
       description:
         "Brasilien-Austausch: Vom weißen Strand über Wasserfälle zum Oktoberfest Vom 18. bis zum 30. Oktober 2024 hatten zehn deutsche und zehn brasilianische Schüler die Gelegenheit, an einem kulturellen Austausch teilzunehmen. Die […]",
       time: "vor 4 Tagen",
     },
     {
-      image: "public/whatsNew/whats_new_4.jpg",
+      image: "/whatsNew/whats_new_4.jpg",
       title: "Schülerpraktikum in Dublin: Ein unvergessliches Erlebnis",
       description:
         "We love Dublin Vom 29. September bis zum 18. Oktober 2024 durften 17 Schülerinnen und Schüler der FTM1, der kaufmännischen Berufsschule und des Berufskollegs Fremdsprachen ein spannendes dreiwöchiges Praktikum in […]",
       time: "vor 6 Tagen",
     },
     {
-      image: "public/whatsNew/whats_new_5.jpg",
+      image: "/whatsNew/whats_new_5.jpg",
       title: "Solarenergie und Umweltschutz à la française",
       description:
         "Jahrgangsstufe 1 reist mit TGV nach Montebeliard Im Oktober waren 15 Schüler der 12. Klasse gemeinsam mit Frau Traxel und Frau Stier in Montbéliard, Frankreich für ein Umweltprojekt. Vom Karlsruher […]",
       time: "vor 1 Woche",
     },
     {
-      image: "public/whatsNew/whats_new_6.jpg",
+      image: "/whatsNew/whats_new_6.jpg",
       title: "Junger Ukrainer möchte Fachinformatiker werden",
       description:
         "Erstmals FSJ digital an den Beruflichen Schulen Bretten Begeistert berichtet Miroslav Bubnov von seinem Bildungsweg im Beruflichen Bildungssystem Baden-Württembergs. Im März 2022 war der junge Mann aus der Ukraine nach […]",

@@ -14,6 +14,7 @@ import SchoolIcon from "@mui/icons-material/School";
 import { useState } from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import { useNavigate } from 'react-router-dom';
 
 interface CutsomPagesWithSubpages {
   mainPage: string;
@@ -97,6 +98,12 @@ const Navbar = () => {
     setOpenMenuIndex(null);
   };
 
+  const navigate = useNavigate();
+
+  const goToHome = () => {
+    navigate('/');
+  };
+
   return (
     <AppBar elevation={0} position="static" sx={{ bgcolor: "transparent" }}>
       <Toolbar
@@ -109,10 +116,20 @@ const Navbar = () => {
           borderRadius: "15px",
         }}
       >
-        <SchoolIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+      <Box sx={{display:"flex", justifyContent:"center", alignItems:"center", marginRight:"1%"}}>
+        <img 
+        src="/bsbretten_logo.png" 
+        alt="BSB LOGO" 
+        style={{ width: '50px', height: '50px' }}
+        onClick={goToHome}
+      />
+      
+    </Box>
+        
         <Typography
           variant="h6"
           noWrap
+          onClick={goToHome}
           sx={{
             mr: 2,
             display: { xs: "none", md: "flex" },
@@ -283,7 +300,9 @@ const Navbar = () => {
                 display: { xs: "none", md: "flex" },
                 mr: 1,
                 justifyItems: "center",
+                
               }}
+              onClick={() => window.location.href = "https://www.instagram.com/bsb_bretten/"}
             />
             <FacebookIcon
               sx={{
@@ -291,6 +310,7 @@ const Navbar = () => {
                 mr: 1,
                 justifyItems: "center",
               }}
+              onClick={() => window.location.href = "https://www.facebook.com/bsbbretten"}
             />
           </Box>
         </Box>
